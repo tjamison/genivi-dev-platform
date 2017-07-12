@@ -44,3 +44,6 @@
 [submodule "meta-linaro"]
 	path = meta-linaro
 	url = https://git.linaro.org/openembedded/meta-linaro.git
+[submodule "meta-smart-cities-pilot"]
+	path = meta-smart-cities-pilot
+	url = git@github.com:GENIVI/meta-smart-cities-pilot.git

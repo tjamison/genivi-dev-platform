@@ -25,11 +25,6 @@ function setupGitSubmodules() {
         "raspberrypi3"
         "silk")
     local supported=(
-        "dragonboard-410c"
-        "minnowboard"
-        "qemux86-64"
-        "r-car-m3-starter-kit"
-        "raspberrypi2"
         "raspberrypi3")
     local modules=()
     local target=""
