@@ -28,6 +28,13 @@ BBLAYERS ?= " \
   ${TOPDIR}/../meta-browser \
   "
 
+# Add smart-cities-pilot specific layers
+BBLAYERS += " \
+  ${TOPDIR}/../meta-smart-cities-pilot \
+  ${TOPDIR}/../meta-openembedded/meta-networking \
+  ${TOPDIR}/../meta-openembedded/meta-python \
+"
+
 BBLAYERS_NON_REMOVABLE ?= " \
   ${OEROOT}/meta \
   ${OEROOT}/meta-yocto \
